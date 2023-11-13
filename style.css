@@ -1,0 +1,106 @@
+* {
+  /*margin: 0;
+  padding: 0; */
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFEC5C;
+}
+
+p {
+  font-style: italic;
+  float: center;
+  padding: 20px;
+  border: solid blue;
+  border-width: 20px;
+  margin: 20px;
+}
+
+a {
+    background-color: #44803f;
+    margin: 5px;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+h1 {
+  font-family: helvetica, sans-serif, arial;
+  text-align: center;
+  background-color: #FFEC5C;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #2f2f2b;
+  background-color: #B4CF66;
+  margin-top: 15px;
+}
+
+tr {
+  background-color: #B4CF66;
+}
+
+/* esto es un comentario en css y estoy comentando la propiedad de fondo para que se omita ese color, y se vea el amarillo */
+td {
+  /* background-color: #8b5555; */ 
+}
+
+img {
+  float: center;
+  padding: 20px;
+  border: solid blue;
+  border-width: 20px;
+  margin: 20px;
+}
+
+#news {
+  background-color: #44803F;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#colombia {
+  background-color: yellow;
+}
+
+#main-photo {
+}
+
+#ai-photo {
+  display: block;
+}
+
+.news-content {
+  background-color: #146152;
+}
+
+.odd {
+  background-color: #B4CF66;
+}
+
+.even {
+  background-color: #FFEC5C;
+}
+
+@media only screen and (max-width: 600px) {
+
+  header {
+    padding: 10px;
+  }
+
+  #main-photo {
+    max-width: 100%;
+  }
+
+  #ai-photo {
+    display: none;
+  }
+
+  .news {
+    border: 1px solid;
+    margin: 10px;
+  }
+}
